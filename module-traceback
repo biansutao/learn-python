@@ -1,0 +1,10 @@
+import traceback  
+try:  
+    1/0  
+except Exception,e:  
+    traceback.print_exc()  
+    traceback.print_exc(file=open('tb.txt','w+'))
+    
+    
+    
+format_exc()返回字符串，print_exc()则直接给打印出来。    
