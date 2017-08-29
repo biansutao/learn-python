@@ -9,3 +9,4 @@
 - [Python 基础教程](http://www.runoob.com/python/python-tutorial.html)
 - [Python 入门指南](https://www.beibq.cn/book/iptj136/intro)
 - [Python2.7 教程](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
+- [Base64 编码规则](http://www.ruanyifeng.com/blog/2008/06/base64.html)
