@@ -19,3 +19,5 @@
 .confluent-kafka (商业)
 
 .kafka-python  （社区）
+
+[API] (https://kafka-python.readthedocs.io/en/master/apidoc/KafkaConsumer.html)
