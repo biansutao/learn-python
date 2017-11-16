@@ -17,4 +17,5 @@
 
 # kafka 的两个python客户端
 .confluent-kafka (商业)
+
 .kafka-python  （社区）
