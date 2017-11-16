@@ -13,3 +13,8 @@
 - [Requests 库使用手册](http://docs.python-requests.org/zh_CN/latest/)
 - [单元测试手册](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00140137128705556022982cfd844b38d050add8565dcb9000)
 - [Python 编码风格手册](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/00140137128705556022982cfd844b38d050add8565dcb9000)
+
+
+# kafka 的两个python客户端
+.confluent-kafka (商业)
+.kafka-python  （社区）
