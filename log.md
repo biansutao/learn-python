@@ -2,7 +2,7 @@
 
 logging.json  json格式的配置文件
 
-`{
+```{
     "version": 1,
     "disable_existing_loggers": false,
     "formatters": {
@@ -89,7 +89,7 @@ def main():
     logger.error("diveid is zero ")
 
 if __name__ == '__main__':
-    main()`
+    main() ```
     
     
 参考：http://yshblog.com/blog/125
