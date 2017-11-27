@@ -52,13 +52,14 @@ logging.json  json格式的配置文件
         "level": "INFO",
         "handlers": ["console", "info_file_handler", "error_file_handler"]
     }
-}```
+} ```
+
 
 log.py 示例代码
 
 
-```
-import os
+
+```import os
 import json
 import logging.config
 
@@ -88,5 +89,4 @@ def main():
     logger.error("diveid is zero ")
 
 if __name__ == '__main__':
-    main()
-    ```
+    main() ```
