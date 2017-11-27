@@ -1,4 +1,4 @@
-###### Python namedtuple 
+1. ## Python namedtuple 
 
 
 namedtuple 能够用来创建类似于元祖的数据类型，除了能够用索引来访问数据，能够迭代，更能够方便的通过属性名来访问数据：
@@ -18,7 +18,7 @@ big_yellow.name
 'big_yellow'
 
 
-## deque
+2. ## deque
 
 使用list存储数据时，按索引访问元素很快，但是插入和删除元素就很慢了，因为list是线性存储，数据量大的时候，插入和删除效率很低。
 
