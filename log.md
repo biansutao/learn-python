@@ -2,7 +2,8 @@
 
 logging.json  json格式的配置文件
 
-```{
+``` 
+{
     "version": 1,
     "disable_existing_loggers": false,
     "formatters": {
