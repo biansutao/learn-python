@@ -46,3 +46,33 @@ True	true
 False	false
 None	null
  ```
+
+ ```
+json.loads
+json.loads 用于解码 JSON 数据。该函数返回 Python 字段的数据类型。
+语法
+json.loads(s[, encoding[, cls[, object_hook[, parse_float[, parse_int[, parse_constant[, object_pairs_hook[, **kw]]]]]]]])
+实例
+以下实例展示了Python 如何解码 JSON 对象：
+#!/usr/bin/python
+import json
+
+jsonData = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
+
+text = json.loads(jsonData)
+print text
+以上代码执行结果为：
+{u'a': 1, u'c': 3, u'b': 2, u'e': 5, u'd': 4}
+json 类型转换到 python 的类型对照表：
+JSON	Python
+object	dict
+array	list
+string	unicode
+number (int)	int, long
+number (real)	float
+true	True
+false	False
+null	None
+更多内容参考：https://docs.python.org/2/library/json.html。
+
+ ```
